@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>The Observer Archive</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/nav.css">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+	</head>
+	<body id="body">
+		<div class="signupcontainer" id="signupcontainer">
+			<div class="signupalign">
+				<div class="signup">
+			<div class="signupform">
+			<h2>The Observer<br>Archive</h2>
+			<img src="SVG/close.svg" id="closeform">
+			<form>
+				<input type="email" name="" placeholder="Email Address" class="input"><br>
+				<input type="text" name="" placeholder="Username" class="input"><br>
+				<input type="password" name="" placeholder="Password" class="input"><br>
+				<div class="confirm"><input type="password" name="" placeholder="Confirm Password" id="confirm"><img src="SVG/lock.svg"></div><br>
+				<span>*Password must contain one capital, one number, and one special character</span><br>
+				<span style="color: blue">Already have an account? <a href="">Log in here.</a></span>
+			</form>
+			</div>
+			<input type="submit" name="" value="Sign Up">
+			
+		</div>
+		</div>
+		</div>
+
+		<div class="rotate">
+			<div class="rotatecontainer">
+				<h1>Rotate your Device</h1>
+			<img src="SVG/rotate.svg"></div>	</div>
+			<div class="contentcontainer">
+				<div class="nav">
+					<div class="logo">
+						
+						<div>
+							<input type="text" name="" placeholder="Raf Simons 2001">
+							<img src="SVG/search.svg">
+						</div>
+					</div>
+					<div class="navlinks">
+						<ul>
+							<li><a href="">About</a></li>
+							<li><a href="">Featured</a></li>
+							<li><a href="">View the Feed</a></li>
+							<li><button id="signup">Sign-Up</button></li>
+							<li><a href="" ><button>Log-In</button></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mobilenav" id="mobilenav">
+					<div class="mobilesearch">
+						<input type="text" name="" placeholder="Raf Simons 2001">
+						<img src="SVG/search.svg">
+					</div>
+					<img src="SVG/menu.svg" onclick="openNav()" id="openNav">
+				</div>
+				<div class="mobilemenu" id="mobilemenu">
+					
+					<ul>
+						<li><a href="">About</a></li>
+						<li><a href="">Featured</a></li>
+						<li><a href="">Feed</a></li>
+						<li><button id="signup2">Sign-Up</button></li>
+					</ul>
+				</div>
+				<div class="hero">
+					<div class="flexcontainer">
+						<div class="htext">
+							<div class="heroposition"><h1>The Observer<br>Archive</h1></div>
+						</div>
+						<div class="himage"></div>
+					</div>
+				</div>
+				<div class="aboutcontainer">
+					<div class="aboutmain">
+						<div class="emptycontainer"></div>
+						<div class="abouttext">
+							<div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p><br>
+								<p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="categories">
+					<h3>Explore our Categories</h3>
+					<div class="categoriescontainer">
+						<div class="catitem" style="background-image: url(img/categories/shoes.jpg);">	</div>
+						<div class="catitem" style="background-image: url(img/categories/outerwear.jpg);"></div>
+						<div class="catitem" style="background-image: url(img/categories/tops.jpg);"></div>
+						<div class="catitem" style="background-image: url(img/categories/bottoms.jpg);"></div>
+						<div class="catitem" style="background-image: url(img/categories/tailoring.jpg);"></div>
+						<div class="catitem" style="background-image: url(img/categories/accessories.jpg);"></div>
+					</div>
+					<div class="categoriescontainer clothingtypes">
+						<div class="catname">Footwear</div>
+						<div class="catname">Outerwear</div>
+						<div class="catname">Tops</div>
+						<div class="catname">Bottoms</div>
+						<div class="catname">Tailoring</div>
+						<div class="catname">Accessories</div>
+					</div>
+				</div>
+				<div class="categories brand">
+					<div class="textalign">
+						<h3>Explore Popular Brands
+						<a href=""><p>All Brands</p></a>
+					</div>
+					</h3>
+					<div class="categoriescontainer">
+						<div class="catitem" style="background-image: url(img/brands/raf.jpg);">	</div>
+						<div class="catitem" style="background-image: url(img/brands/cdg.jpg);"></div>
+						<div class="catitem" style="background-image: url(img/brands/margiela.jpg);"></div>
+						<div class="catitem" style="background-image: url(img/brands/yohji.jpg);"></div>
+						<div class="catitem" style="background-image: url(img/brands/issey.jpg);"></div>
+						<div class="catitem" style="background-image: url(img/brands/vivienne.jpg);"></div>
+					</div>
+				</div>
+				<div class="categories brand">
+					<h3>Featured Collections</h3>
+					<div class="categoriescontainer">
+						<div class="collection featuredphoto">
+							<div class="collectionbg" style="background-image: url('https://images.unsplash.com/photo-1491956142110-8a4226a12077?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');"></div>
+							<div class="collectioninfo">
+								<h3 class="cinfo">Featured Collection 1</h3>
+								<p class="cinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+								
+							</div>
+							<div class="readmore">
+								<a href="" class="rmore">Read More</a>
+								<a href="" class="mobilearticle">Featured Article 1</a>
+							</div>
+						</div>
+						<div class="collection featuredphoto" >
+							<div class="collectionbg" style="background-image: url(https://images.unsplash.com/photo-1528406745358-6c3112259eb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80);"></div>
+							<div class="collectioninfo">
+								<h3 class="cinfo">Featured Collection 2</h3>
+								<p class="cinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore.</p>
+								
+							</div>
+							<div class="readmore">
+								<a href="" class="rmore">Read More</a>
+								<a href="" class="mobilearticle">Featured Article 2</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="finalsec">
+					<button>View the Feed</button>
+				</div>
+				<div class="footer">
+					<div class="footersec" id="footerone">
+						<div class="footercontent">
+							<h4>Contact</h4>
+							<img src="SVG/mail.svg"><span>help@observerarchive.com</span>
+							
+							<br><img src="SVG/jwlogo.svg"><span>Made with love by Jude Wallach</span>	<br><span>&nbsp;</span><br><span>&nbsp;</span><br><span>&nbsp;</span>
+						</div>
+					</div>
+					<div class="footersec">
+						<div class="footercontent">
+							<h4>Sitemap</h4>
+							<span>About</span>
+							<br>
+							<span>All Brands</span><br>
+							<span>Featured Articles</span><br>
+							<span>View the Feed</span><br>
+							<span>Sign-Up</span>
+						</div>
+					</div>
+					<div class="footersec">
+						<div class="footercontent">
+							<h4>Social Media</h4>
+							<img src="SVG/logo-facebook.svg"><span>@theobserverarchive</span>
+							
+							<br><img src="SVG/logo-twitter.svg"><span>@observerfashionarchive</span><br>
+							<img src="SVG/logo-instagram.svg"><span>@observer.archive</span>	<br><span>&nbsp;</span><br><span>&nbsp;</span>
+						</div>
+					</div>
+				</div>
+				<div class="mobilefooter">
+					<div>
+						<a href=""><img src="SVG/mail.svg"></a>
+						<a href=""><img src="SVG/logo-facebook.svg"></a>
+						<a href=""><img src="SVG/logo-twitter.svg"></a>
+						<a href=""><img src="SVG/logo-instagram.svg"></a></div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					document.getElementById('openNav').addEventListener('click', function() {
+				document.getElementById('mobilemenu').classList.toggle('showing');
+				});
+				</script>
+				<script type="text/javascript">
+					document.getElementById('signup').addEventListener('click', function () {
+						document.getElementById("signupcontainer").classList.toggle('show');
+					});
+					
+					document.getElementById('closeform').addEventListener('click', function () {
+						document.getElementById("signupcontainer").classList.toggle('show');
+					});	
+					
+				</script>
+								<script type="text/javascript">
+					document.getElementById('signup2').addEventListener('touchstart', function () {
+						document.getElementById("signupcontainer").classList.toggle('show');
+					});
+					
+					document.getElementById('closeform').addEventListener('touchstart', function () {
+						document.getElementById("signupcontainer").classList.toggle('show');
+					});	
+					
+				</script>
+				<script>
+				AOS.init();
+				</script>
+			</body>
+		</html>

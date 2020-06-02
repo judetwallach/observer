@@ -1,0 +1,962 @@
+
+
+/* Super small phones */
+@media only screen 
+and (min-device-width:320px) 
+and (max-device-width:568px)
+and (-webkit-min-device-pixel-ratio:2)
+and (orientation:portrait) {
+	.nav {
+		display: none;
+	}
+
+	.cinfo {
+		display: none;
+	}
+
+	.flexcontainer {
+		flex-flow: column;
+	}
+
+	.emptycontainer {
+		display: none;
+	}
+
+	.abouttext {
+		flex: 1;
+	}
+
+	.mobilenav {
+		display: inherit;
+	}
+
+	.abouttext p {
+		font-size: .63rem;
+		line-height: 13px;
+	}
+
+	.abouttext {
+		padding-top: 1rem;
+	}
+
+	.hero {
+		background-position: bottom;
+		background-size: 100%;
+	}
+
+	.mobilenav img {
+		width: 30px;
+	}
+
+	.herotext {
+		top: 24%;
+		left: 38%;
+	}
+
+	.herotext h1 {
+		font-size: 2.666rem;
+		margin-bottom: 1rem;
+	}
+
+	button {
+		padding: .5rem;
+	}
+
+	button span {
+		font-size: 1rem;
+	}
+
+	.mobilemenu li a {
+		font-size: 1.4rem;
+	}
+
+	#mobilemenu.showing {
+		height: 35%;
+	}
+
+	.mobilemenu ul {
+		left: 22%;
+		top: 56%;
+	}
+
+	.about {
+		background-image: none;
+		height: initial;
+	}
+
+	.aboutcontent h2 {
+		font-size: 2.25rem;
+	}
+
+	.aboutcontent p {
+		font-size: 1rem;
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.aboutcontent {
+		padding: 12%;
+	}
+
+	.categoriescontainer {
+		justify-content: center;
+		justify-content: space-between;
+	}
+
+	.clothingtypes {
+		display: none;
+	}
+
+	.collection {
+		width: 100%;
+		height: 230px;
+		margin-bottom: 2rem;
+	}
+
+	.collectioninfo {
+		padding-left: 1rem;
+	}
+
+	.collectioninfo p {
+		display: none;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+	}
+
+	.collectioninfo {
+		display: none;
+	}
+
+	.readmore {
+		height: 100%;
+	}
+
+	.mobilesearch img {
+		width: 25px;
+		height: auto;
+		top: 20%;
+	}
+
+	.textalign p {
+		position: initial;
+	}
+
+	.catitem {
+		width: 120px;
+		height: 120px;
+		margin-bottom: 1rem;
+	}
+
+	.collectionbg {
+		height: 70%;
+	}
+
+	.readmore {
+		height: 30%;
+	}
+
+	.footer, .mobilefooter {
+		display: none;
+	}
+
+	.finalsec button {
+		font-size: 1.125rem;
+	}
+
+	.rmore {
+		display: none;
+	}
+
+	.mobilearticle {
+		display: initial;
+	}
+
+	.readmore a {
+		font-size: 1.25rem;
+	}
+
+	.aboutcontainer {
+		display: none;
+	}
+
+}
+
+
+
+/* Medium Phones */
+@media only screen 
+and (min-device-width:375px) 
+and (max-device-width:667px) 
+and (-webkit-min-device-pixel-ratio:2)
+and (orientation:portrait) {
+	.nav {
+		display: none;
+	}
+
+	.flexcontainer {
+		flex-flow: column;
+	}
+
+	.emptycontainer {
+		display: none;
+	}
+
+	.abouttext {
+		flex: 1;
+	}
+
+	.aboutcontainer {
+		height: 70vh;
+	}
+
+	.abouttext {
+		padding-top: 1.5rem;
+	}
+
+	.cinfo {
+		display: none;
+	}
+
+	.mobilenav {
+		display: inherit;
+		position: fixed;
+	}
+
+	.mobilenav img {
+		width: 25px;
+		height: auto;
+		top: 50%;
+	}
+
+	.mobilesearch img {
+		width: 25px;
+		height: auto;
+		top: 20%;
+	}
+
+	.hero {
+		background-position: center center;
+		background-size: 100%;
+	}
+
+	.herotext {
+		top: 24%;
+		left: 37%;
+	}
+
+	.herotext h1 {
+		font-size: 2.5rem;
+	}
+
+	.herotext img {
+		display: none;
+	}
+
+	button {
+		padding: .5rem;
+	}
+
+	button span {
+		font-size: 1rem;
+	}
+
+	.about {
+		background-image: none;
+		height: initial;
+	}
+
+	.aboutcontent h2 {
+		font-size: 2.25rem;
+	}
+
+	.aboutcontent p {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.clothingtypes {
+		display: none;
+	}
+
+	.catitem {
+		margin-bottom: 1rem;
+		width: 150px;
+		height: 150px;
+	}
+
+	.textalign p {
+		position: initial;
+		font-size: .85rem;
+	}
+
+	.collection {
+		width: 100%;
+		background-size: cover !important;
+		margin-bottom: 2.5rem;
+		height: 300px;
+	}
+
+	.readmore {
+		height: 100%;
+	}
+
+	.rmore {
+		display: none;
+	}
+
+	.mobilearticle {
+		display: initial;
+	}
+
+	h3 {
+		font-size: 1.45rem;
+	}
+
+	p {
+		font-size: .75rem;
+		line-height: 18px;
+	}
+
+	.collectioninfo a {
+		font-size: 1.25rem;
+		bottom: 5%;
+	}
+
+	.collectioninfo {
+		padding-top: 1.5rem;
+		height: auto;
+	}
+
+	.brand {
+		margin-top: 3rem;
+	}
+
+	.mobilemenu ul {
+		left: 22%;
+		top: 63%;
+	}
+
+	.readmore {
+		height: 25%;
+	}
+
+	.collectionbg {
+		height: 75%;
+	}
+
+	.collectioninfo {
+		display: none;
+	}
+
+	.finalsec button {
+		font-size: 1.2rem;
+		padding: 1rem;
+	}
+
+	.finalsec {
+		margin-top: 3vh;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.mobilefooter {
+		display: block;
+	}
+
+	.abouttext p {
+		font-size: .93rem;
+		line-height: 20px;
+	}
+
+	.aboutcontainer {
+		height: 88vh;
+	}
+
+	.mobilemenu ul {
+		left: 18%;
+	}
+
+	.aboutcontainer {
+		display: none;
+	}
+
+	.flexcontainer {
+		height: 70%;
+	}
+
+	.heroposition {
+		top: -20%;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	
+
+}
+
+/* Tablets */
+@media only screen 
+and (min-device-width:768px) 
+and (max-device-width:1024px) 
+and (-webkit-min-device-pixel-ratio:2) {
+	.herotext {
+		left: 33%;
+		top: 40%;
+	}
+
+	.herotext h1 {
+		margin-bottom: 3rem;
+		font-size: 5rem;
+	}
+
+	.hero {
+		background-size: 105%;
+	}
+
+	.about {
+		background-size: 105%;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.mobilenav {
+		display: inherit;
+	}
+
+	.mobilenav img {
+		width: 50px;
+		top: 55%;
+		right: 5%;
+	}
+
+	#mobilemenu.showing {
+		height: 50%;
+		opacity: 1;
+	}
+
+	.mobilemenu ul {
+		left: 17.5%;
+		top: 55%;
+	}
+
+	.mobilemenu li a {
+		font-size: 3rem;
+	}
+
+	.clothingtypes {
+		display: none;
+	}
+
+	.catitem {
+		width: 235px;
+		height: 235px;
+		margin-bottom: 2rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	.collection {
+		background-size: cover !important;
+		height: 750px;
+	}
+
+	p {
+		font-size: 1.125rem;
+		line-height: 22px;
+	}
+
+	.collectioninfo a {
+		bottom: 3%;
+	}
+
+	.collectioninfo p {
+		margin-top: 0;
+	}
+
+	.mobilesearch img {
+		width: 25px;
+		height: auto;
+		top: 20%;
+		right: 5%;
+	}
+
+	.mobilesearch input {
+		font-size: 1.25rem;
+	}
+
+	.mobilesearch {
+		left: 7%;
+		top: 50%;
+	}
+
+	.footersec {
+		width: 33%;
+	}
+
+	#footerone {
+		width: 45%;
+	}
+
+}
+
+/* Portrait Tablets */
+@media only screen 
+and (min-device-width:768px) 
+and (max-device-width:1024px) 
+and (orientation:portrait) 
+and (-webkit-min-device-pixel-ratio:2) {
+	.herotext {
+		left: 38%;
+		top: 33%;
+	}
+
+	.about {
+		padding-top: 35%;
+	}
+
+	.aboutcontent p {
+		font-size: 1.5rem;
+		width: 100%;
+	}
+
+	.mobilemenu li a {
+		font-size: 3.5rem;
+	}
+
+	.mobilemenu ul {
+		left: 23%;
+	}
+
+	.catitem {
+		width: 190px;
+		height: 190px;
+	}
+
+	.collection {
+		width: 100%;
+		margin-bottom: 4rem;
+		height: 650px;
+	}
+
+	.brand {
+		margin-bottom: 4rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	.collectioninfo a {
+		font-size: 1.5rem;
+		bottom: 7%;
+	}
+
+	.about {
+		background-size: 125%;
+	}
+
+	.hero {
+		background-size: 125%;
+	}
+
+	.mobilesearch input {
+		font-size: 1.5rem;
+	}
+
+	.mobilesearch img {
+		width: 33px;
+		height: auto;
+		top: 15%;
+		right: 5%;
+	}
+
+	.mobilesearch {
+		top: 43%;
+	}
+
+	.mobilenav img {
+		right: 5%;
+	}
+
+	.aboutcontent p {
+		font-size: 1.25rem;
+		line-height: 1.5rem;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.mobilefooter {
+		display: block;
+	}
+
+	.mobilefooter img {
+		width: 20px;
+		height: auto;
+	}
+
+	.flexcontainer {
+		flex-flow: column;
+		height: 85%;
+	}
+
+	.heroposition {
+		top: 0;
+		left: 5%;
+	}
+
+	.himage::after {
+		height: 8vh;
+		bottom: -15%;
+		display: none;
+	}
+
+	#mobilemenu.showing {
+		height: 40%;
+	}
+
+	.abouttext p {
+		font-size: 1.1rem;
+		line-height: 24px;
+	}
+
+	.abouttext {
+		padding-top: 1rem;
+	}
+
+	/* Portrait tablet computers */
+	@media only screen 
+	and (min-device-width:1024px) 
+	and (max-device-width:1024px) 
+	and (orientation:portrait) 
+	and (-webkit-min-device-pixel-ratio:2) {
+		.hero {
+			background-size: 130%;
+		}
+
+		.about {
+			background-size: 130%;
+		}
+
+		.herotext {
+			top: 35%;
+		}
+
+		.herotext h1 {
+			font-size: 6rem;
+			margin-bottom: 4rem;
+		}
+
+		button span {
+			font-size: 2.5rem;
+		}
+
+		button {
+			padding: 1rem;
+		}
+
+		.mobilenav img {
+			width: 65px;
+			right: 5%;
+		}
+
+		#mobilemenu.showing {
+			height: 40%;
+		}
+
+		.mobilemenu ul {
+			left: 22.5%;
+		}
+
+		.mobilemenu li a {
+			font-size: 4rem;
+		}
+
+		.aboutcontent {
+			padding-top: 15%;
+		}
+
+		.aboutcontent p {
+			font-size: 1.75rem;
+			line-height: 35px;
+		}
+
+		.catitem {
+			width: 220px;
+			height: 220px;
+		}
+
+		h3 {
+			font-size: 2.5rem;
+		}
+
+		p {
+			font-size: 1.33rem;
+			line-height: 27px;
+		}
+
+		.collectioninfo a {
+			font-size: 1.5rem;
+		}
+
+		.mobilesearch input {
+			font-size: 2rem;
+		}
+
+		.mobilesearch img {
+			width: 40px;
+			height: auto;
+			right: 3%;
+		}
+
+		.finalsec button {
+			font-size: 2.5rem;
+			padding: 1.75rem;
+		}
+
+		h1 {
+			font-size: 3.25rem;
+		}
+
+		.heroposition {
+			left: 3%;
+		}
+
+		.abouttext p {
+			font-size: 1.6rem;
+			line-height: 28px;
+		}
+
+		.abouttext {
+			padding-top: 2rem;
+		}
+
+	}
+
+	/* Landscape large tablets */
+	@media only screen 
+	and (min-device-width:1366px) 
+	and (max-device-width:1366px) 
+	and (orientation:landscape) 
+	and (-webkit-min-device-pixel-ratio:2) {
+		.hero {
+			background-size: 108%;
+		}
+
+		.about {
+			background-size: 108%;
+		}
+
+		.herotext {
+			top: 40%;
+			left: 30%;
+		}
+
+		.herotext h1 {
+			font-size: 6rem;
+		}
+
+		button span {
+			font-size: 2rem;
+		}
+
+		button {
+			padding: 1rem;
+		}
+
+		.nav li a {
+			font-size: 1.5rem;
+		}
+
+		.navlinks img {
+			width: 45px;
+		}
+
+		.aboutcontent p {
+			font-size: 1.75rem;
+			line-height: 35px;
+			width: 40%;
+		}
+
+		.catitem {
+			width: 280px;
+		}
+
+		.catname {
+			width: 280px;
+		}
+
+		.collectioninfo {
+			padding-top: .75rem;
+		}
+
+	}
+
+	/* ----------- Average Laptops ----------- */
+	@media screen 
+	and (min-device-width:1200px) 
+	and (max-device-width:1600px) 
+	and (-webkit-min-device-pixel-ratio:1) {
+		.catitem {
+			display: none;
+		}
+
+		.catname {
+			width: 180px;
+		}
+
+		body {
+			display: none;
+		}
+
+		.collection {
+			display: none;
+		}
+
+
+	}
+
+/* Portrait large phones */
+@media only screen 
+and (min-device-width:414px) 
+and (max-device-width:736px) 
+and (-webkit-min-device-pixel-ratio:3)
+and (orientation:portrait) {
+	.catitem {
+		width: 160px;
+		height: 160px;
+	}
+
+	.collectioninfo {
+		height: auto;
+	}
+
+	.brand {
+		margin-top: 2.5rem;
+	}
+
+	p {
+		font-size: .9rem;
+	}
+
+	.mobilemenu ul {
+		left: 20%;
+	}
+
+	.mobilemenu li a {
+		font-size: 4rem;
+	}
+
+	.cinfo {
+		display: none;
+	}
+
+	.flexcontainer {
+		flex-flow: column;
+	}
+
+	.emptycontainer {
+		display: none;
+	}
+
+	.abouttext {
+		flex: 1;
+	}
+
+	.abouttext p {
+		font-size: 1rem;
+		line-height: 20px;
+	}
+
+
+
+}
+
+/* iPhone X */
+@media only screen 
+and (min-device-width:375px) 
+and (max-device-width:812px) 
+and (-webkit-min-device-pixel-ratio:3)
+and (orientation:portrait) {
+	.nav {
+		display: none;
+	}
+
+	.cinfo {
+		display: none;
+	}
+
+	.mobilenav {
+		display: inherit;
+	}
+
+	.flexcontainer {
+		flex-flow: column;
+	}
+
+	.emptycontainer {
+		display: none;
+	}
+
+	.abouttext {
+		flex: 1;
+	}
+
+	.abouttext p {
+		font-size: .95rem;
+	}
+
+	.hero {
+		background-position: bottom;
+		background-size: 100%;
+	}
+
+	.herotext {
+		top: 15%;
+		left: 50%;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	.herotext img {
+		display: none;
+	}
+
+	.about {
+		background-image: none;
+	}
+
+	.aboutcontent p {
+		width: 100%;
+	}
+
+	.mobilemenu ul {
+		left: 23%;
+	}
+
+	#mobilemenu.showing {
+		height: 38%;
+	}
+
+	.mobilemenu li a {
+		font-size: 1.75rem;
+	}
+
+	.abouttext p {
+		font-size: 2rem!important;
+	}
+
+}
